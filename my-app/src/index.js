@@ -4,21 +4,9 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 
-// ReactDOM.render(<App />, document.getElementById("root"));
+import MyInfo from "./components/MyInfo";
 
-function MyInfo() {
-  return (
-    <div>
-      <h1>Silvia</h1>
-      <p>This is a description of me</p>
-      <ul>
-        <li>Korea</li>
-        <li>Japan</li>
-        <li>Brazil</li>
-      </ul>
-    </div>
-  );
-}
+// ReactDOM.render(<App />, document.getElementById("root"));
 
 ReactDOM.render(<MyInfo />, document.getElementById("root"));
 
