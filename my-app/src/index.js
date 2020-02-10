@@ -6,17 +6,21 @@ import * as serviceWorker from "./serviceWorker";
 
 // ReactDOM.render(<App />, document.getElementById("root"));
 
-function MyApp() {
+function MyInfo() {
   return (
-    <ul>
-      <li>1</li>
-      <li>2</li>
-      <li>3</li>
-    </ul>
+    <div>
+      <h1>Silvia</h1>
+      <p>This is a description of me</p>
+      <ul>
+        <li>Korea</li>
+        <li>Japan</li>
+        <li>Brazil</li>
+      </ul>
+    </div>
   );
 }
 
-ReactDOM.render(<MyApp />, document.getElementById("root"));
+ReactDOM.render(<MyInfo />, document.getElementById("root"));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
