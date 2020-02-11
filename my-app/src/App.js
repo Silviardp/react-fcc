@@ -4,13 +4,15 @@ import "./App.css";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import MainContent from "./components/MainContent";
+import TodoItem from "./components/TodoItem";
 
 function App() {
   return (
-    <div>
-      <Header />
-      <MainContent />
-      <Footer />
+    <div className="todo-list">
+      <TodoItem />
+      <TodoItem />
+      <TodoItem />
+      <TodoItem />
     </div>
   );
 }
