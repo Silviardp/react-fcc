@@ -16,7 +16,15 @@ function MainContent() {
   const firstName = "Silvia";
   const lastName = "Rocha";
 
-  return <h1>Good {`${timeOfDay} ${firstName} ${lastName}`}!</h1>;
+  const styles = {
+    color: "red",
+    backgroundColor: "blue",
+    fontSize: 50
+  };
+
+  return (
+    <h1 style={styles}>Good {`${timeOfDay} ${firstName} ${lastName}`}!</h1>
+  );
 }
 
 export default MainContent;
