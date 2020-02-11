@@ -2,21 +2,14 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import Footer from "./components/Footer";
+import Header from "./components/Header";
+import MainContent from "./components/MainContent";
 
 function App() {
   return (
     <div>
-      <nav>
-        <h1>Hello again!</h1>
-        <ul>
-          <li>1</li>
-          <li>2</li>
-          <li>3</li>
-        </ul>
-      </nav>
-      <main>
-        <p>This is where most of my content will go</p>
-      </main>
+      <Header />
+      <MainContent />
       <Footer />
     </div>
   );
